@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<item
+		android:id="@+id/menu_backup_theme"
+		android:title="Backup Current Theme"/>
+	<item
+		android:id="@+id/menu_downloat_tema_lain"
+		android:title="Download Other Theme"/>
+	<item
+		android:id="@+id/menu_about"
+		android:title="About"/>
+</menu>
+

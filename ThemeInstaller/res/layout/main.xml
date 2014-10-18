@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="center"
+	android:orientation="vertical">
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1.0">
+
+		<ScrollView
+			android:id="@+id/scroll_view_text_status"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+
+			<TextView
+				android:textColor="#33aa33"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/tv_status"
+				android:layout_centerHorizontal="true"/>
+
+		</ScrollView>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="Clear text log"
+			android:layout_width="wrap_content"
+			android:id="@+id/tombol_clear_text_log"
+			android:layout_alignParentEnd="true"
+			android:layout_alignParentRight="true"/>
+
+		<ListView
+			android:id="@+id/listview_tema"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"/>
+
+	</RelativeLayout>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="Quick Restart"
+		android:layout_width="match_parent"
+		android:id="@+id/tombol_quick_restart"/>
+
+</LinearLayout>
+

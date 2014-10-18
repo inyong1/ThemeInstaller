@@ -1,0 +1,23 @@
+﻿TILE HALUS
+Bw = 20
+Putih 3
+B benhur 19
+Merah c 7
+Ungu m 17
+Pink muda sekali 23
+Biru md 5
+Hitam 11
+Krem 16
+C kopi 3
+Hj lumut md 1
+H lumut tua 1
+H toska md (17943) 6
+Kuning sesang 8
+Oren 11
+H toska tua 12
+H daun 30
+Coklt mas 6
+Ungu sdg 10
+Ungu tua 11
+Pink sdg 41
+H melon 28

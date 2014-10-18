@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:gravity="center"
+	android:orientation="horizontal"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:id="@+id/restart_checkbox_Linearlayout">
+
+	<CheckBox
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:gravity="center"
+		android:id="@+id/restart_check_box"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="Auto restart after installation\nRecomended for framework installation"
+		android:layout_width="0dp"
+		android:layout_weight="1.0"
+		android:gravity="left"
+		android:padding="3dp"
+		android:textColor="#FE0E00"
+		android:id="@+id/restart_checkbox_TextView"/>
+
+</LinearLayout>
+
